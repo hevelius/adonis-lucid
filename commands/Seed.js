@@ -151,6 +151,8 @@ class SeedDatabase extends Command {
     if (!keepAlive) {
       this.Database.close()
     }
+    
+    process.exit(0)
   }
 }
 
